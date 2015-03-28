@@ -49,29 +49,6 @@ class Ability
       can :read, :all
     end
 
-
-
-
-
-    #if user.role? :administrator
-    #  can :manage, :all
-    #end
-
-    #if user.role? :moderator
-    #  can :manage, Article
-    #end
-
-    #if user.role? :editor
-    #  can :crud, Article
-    #else
-    #  can :read, Article
-    #  cannot :manage, :all
-    #end
-
-
-
-
-
   end
 
 
